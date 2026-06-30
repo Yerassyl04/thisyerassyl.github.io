@@ -1,20 +1,22 @@
 ---
 layout: page
-title: Game Development in Godot
-description: Core gameplay mechanics and character physics
+title: Game Development (Godot)
+description: A 2D game built with the Godot engine
 img: assets/img/9.jpg
 importance: 3
 category: work
 related_publications: false
 ---
 
-A game-development project built with the Godot engine, focused on implementing the
-core gameplay loop and a responsive character controller.
+A collaborative game-development project built with the Godot engine, implementing the
+core gameplay loop, character mechanics, and shader effects.
+
+[View on GitHub](https://github.com/rachelfong0320/GameDevelopment)
 
 **Highlights**
 
-- Developed core game mechanics and interaction systems.
-- Implemented character movement and physics.
-- Explored real-time engine workflows and scene design.
+- Developed core game mechanics and a responsive character controller.
+- Built scenes and interaction systems in the Godot engine.
+- Implemented visual effects with custom GDShaders.
 
-**Stack:** Godot, GDScript.
+**Stack:** Godot, GDScript, GDShader.

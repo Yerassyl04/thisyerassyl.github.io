@@ -1,21 +1,24 @@
 ---
 layout: page
-title: Real Estate Information System
-description: IS model and application for property and client management
+title: BeineTanu — Face Recognition & Anti-Spoofing
+description: Real-time authentication with liveness detection for virtual systems
 img: assets/img/7.jpg
 importance: 2
 category: work
 related_publications: false
 ---
 
-Design and implementation of an information system model for the real estate domain.
-The system manages property listings, client records, and transaction history through
-a relational data model and a supporting application layer.
+BeineTanu is an integrated face recognition and anti-spoofing system for real-time
+authentication in virtual environments. It verifies whether a user is a real, live
+subject or a spoof (printed photo or video replay) and associates the result with a
+named identity.
+
+[View on GitHub](https://github.com/Yerassyl04/BeineTanu)
 
 **Highlights**
 
-- Architected the information system model: entities, relationships, and data flows.
-- Implemented listing, client, and transaction-history management.
-- Designed a normalized relational schema in PostgreSQL.
+- Combines face recognition with anti-spoofing (liveness detection) in a single pipeline.
+- Distinguishes live subjects from photo and video replay attacks in real time.
+- Designed for virtual assessment, attendance, testing, and online communication use cases.
 
-**Stack:** Java, PostgreSQL.
+**Stack:** Python, computer vision, deep learning.
