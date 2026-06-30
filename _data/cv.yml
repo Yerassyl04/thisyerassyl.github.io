@@ -1,0 +1,153 @@
+cv:
+  name: Yerassyl Iskakov
+  label: Machine Learning & AI Researcher
+  email: iskakovk2016@gmail.com
+  phone: "+7 707 137 3705"
+  location: Astana, Kazakhstan
+  image: ""
+  summary: >
+    Information Systems undergraduate and researcher focused on Machine Learning,
+    Artificial Intelligence, Data Analysis, and Financial Technologies. Experienced
+    in applied ML, econometric modeling, and academic research, with multiple
+    peer-reviewed publications.
+
+  social_networks:
+    - network: GitHub
+      username: Yerassyl04
+    - network: LinkedIn
+      username: yerassyl-iskakov-2037a2283
+
+  sections:
+    Education:
+      - institution: L.N. Gumilyov Eurasian National University
+        location: Astana, Kazakhstan
+        url: https://www.enu.kz/
+        area: Information Systems (B057 — Information Technologies)
+        studyType: Bachelor
+        start_date: 2022-08
+        end_date: 2026-06
+        score: "GPA 3.92 / 4.0"
+        highlights:
+          - Faculty of Information Technologies, Information and Communication Technologies degree.
+
+      - institution: Universiti Malaya
+        location: Kuala Lumpur, Malaysia
+        url: https://www.um.edu.my/
+        area: Academic Mobility Program
+        studyType: ENU Students Ambassador
+        start_date: 2025-03
+        end_date: 2025-07
+        highlights:
+          - Semester abroad under the ENU Students Ambassador initiative.
+
+    Experience:
+      - company: ITECHRESEARCH
+        position: Machine Learning Tutor
+        location: Astana, Kazakhstan
+        start_date: 2025-09
+        end_date: present
+        highlights:
+          - Developed comprehensive curriculum and training materials for the "Machine Learning" course.
+          - Designed, assigned, and graded homework with constructive feedback for 30+ students.
+          - Conducted personalized mentoring sessions to support student projects and concept mastery.
+
+      - company: L.N. Gumilyov Eurasian National University
+        position: Junior Research Assistant
+        location: Astana, Kazakhstan
+        start_date: 2025-08
+        end_date: 2025-12
+        highlights:
+          - Reviewed and synthesized scientific literature, producing accurate and structured literature reviews.
+          - Assisted in preparing research reports and academic publications to academic standards.
+
+    Awards:
+      - title: Presidential Scholarship of the Republic of Kazakhstan
+        date: 2024-09
+        awarder: Republic of Kazakhstan
+        summary: Awarded for excellent academic performance.
+
+      - title: ENU Endowment Fund Scholarship — Young Researcher Category
+        date: 2025-09
+        awarder: L.N. Gumilyov Eurasian National University
+        summary: Awarded for academic performance, scientific activity, and public service.
+
+    Publications:
+      - title: "Econometric Analysis of the Sustainability and Development of an Alternative Strategy to Gross Value Added in Kazakhstan's Agricultural Sector"
+        authors:
+          - Tleubayev, A. et al.
+          - "Iskakov, Y."
+        publisher: "Econometrics, 12(4), 29"
+        releaseDate: 2024
+        url: https://doi.org/10.3390/econometrics12040029
+
+      - title: "Exchange Rate Dynamics of USD-KZT, EUR-KZT, RUB-KZT, and CNY-KZT (2000–2024)"
+        authors:
+          - Lamasheva, Zh. et al.
+          - "Iskakov, Y."
+        publisher: "Bulletin of the National Engineering Academy of the Republic of Kazakhstan, 2(96)"
+        releaseDate: 2025
+        url: https://doi.org/10.47533/2025.1606-146X.2-07
+
+      - title: "Forecasting for Japanese Yen to Dollar Exchange Rate Based on Fuzzy Logic"
+        authors:
+          - Kerimkhulle, S. et al.
+          - "Iskakov, Y."
+        publisher: "Lecture Notes in Networks and Systems, 1489 (CoMeSySo 2024), Springer"
+        releaseDate: 2025
+        url: https://doi.org/10.1007/978-3-031-96798-6_3
+
+      - title: "Multinomial Naive Bayes for Kazakh Language Spam Detection: A Case Study with Morphological Analysis"
+        authors:
+          - Lamasheva, Zh.
+          - Makhazhanova, U.
+          - Kassekeyeva, A.
+          - "Iskakov, Y."
+        publisher: "Vestnik Akademii grazhdanskoi aviatsii, 3(38)"
+        releaseDate: 2025
+        url: https://doi.org/10.53364/24138614_2025_38_3_14
+
+    Skills:
+      - name: Programming Languages
+        keywords: "Python, SQL, Java"
+      - name: Libraries & Frameworks
+        keywords: "Pandas, NumPy, Scikit-learn, TensorFlow, Keras"
+      - name: Tools
+        keywords: "Git, Docker, Jupyter, LaTeX"
+
+    Languages:
+      - name: Kazakh
+        summary: Native
+      - name: Russian
+        summary: Professional
+      - name: English
+        summary: IELTS 7.0 (C1)
+      - name: Mandarin
+        summary: Elementary
+
+    Certificates:
+      - name: Machine Learning (112 hours, TechOrda scholarship)
+        date: 2025-07
+        issuer: ITECHRESEARCH IT School
+      - name: Design Thinking (72 hours)
+        date: 2024-04
+        issuer: SAP University Alliances
+      - name: Data Science Professional Certificate
+        date: 2023-07
+        issuer: IBM / Coursera
+
+    Projects:
+      - name: Face Recognition and Anti-Spoofing System for Real-Time Authentication
+        summary: >
+          Implemented an anti-spoofing algorithm in Python to distinguish live subjects
+          from photo or video replay attacks, strengthening authentication security.
+      - name: Information System for Real Estate Management
+        summary: >
+          Architected an information system model and application for managing real estate
+          listings, client data, and transaction history using Java and PostgreSQL.
+      - name: Game Development
+        summary: >
+          Developed core game mechanics and character physics in the Godot engine.
+
+    Interests:
+      - name: Research Interests
+        keywords: "Financial Technologies (FinTech), Machine Learning, Artificial Intelligence"
