@@ -31,6 +31,6 @@ I am an Information Systems undergraduate at the Faculty of Information Technolo
 
 Currently I work as a Machine Learning Tutor at ITECHRESEARCH, where I develop curriculum and mentor more than 30 students, and I have served as a Junior Research Assistant at the Eurasian National University. In 2025 I completed an academic mobility program at Universiti Malaya under the ENU Students Ambassador initiative.
 
-My research has been published in venues including *Econometrics* and the *Lecture Notes in Networks and Systems* series, covering econometric modeling, exchange-rate forecasting, and natural language processing for the Kazakh language. I am a recipient of the Presidential Scholarship of the Republic of Kazakhstan and the ENU Endowment Fund scholarship in the Young Researcher category.
+My research has been published in venues covering econometric modeling, exchange-rate forecasting, and natural language processing for the Kazakh language. I am a recipient of the Presidential Scholarship of the Republic of Kazakhstan and the ENU Endowment Fund scholarship in the Young Researcher category.
 
 I am always open to collaboration on projects and research in machine learning and AI. The best way to reach me is by email.
