@@ -1,25 +1,24 @@
-# Social media links and usernames. They are displayed in the order defined here.
+# Social media links. Displayed in the order defined here.
 # Reference: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/IskakovY.CV.pdf # path to your CV PDF file (place the file in assets/pdf/)
+cv_pdf: /assets/pdf/IskakovY.CV.pdf # path to your CV PDF (file lives in assets/pdf/)
 email: iskakovk2016@gmail.com
-rss_icon: false
 
 # Academic profiles
-orcid: 0009-0001-8723-3688
-researchgate: Yerassyl-Iskakov
-# scholar_userid: # add your Google Scholar user ID here to enable the Scholar icon
+orcid_id: 0009-0001-8723-3688
+research_gate_profile: Yerassyl-Iskakov
+# scholar_userid: # add your Google Scholar user ID to enable the Scholar icon
 
 # Professional / code
-github: Yerassyl04
-linkedin: yerassyl-iskakov-2037a2283
+github_username: Yerassyl04
+linkedin_username: yerassyl-iskakov-2037a2283
 
 # Personal
-instagram: thisyerassyl
-facebook: thisyerassyl
+instagram_id: thisyerassyl
+facebook_id: thisyerassyl
 
-# Additional profiles not covered by the default network icons
-custom_social:
-  - title: Web of Science
-    url: https://www.webofscience.com/wos/author/record/LKK-2907-2024
-  - title: SciProfiles
-    url: https://sciprofiles.com/profile/iskakovyerkair
+# Web of Science and SciProfiles are not built-in network icons in this plugin version.
+# They are listed on the CV; one extra profile can be shown here via custom_social, e.g.:
+# custom_social:
+#   logo: ai ai-clarivate            # a FontAwesome/Academicons icon class
+#   title: Web of Science
+#   url: https://www.webofscience.com/wos/author/record/LKK-2907-2024
