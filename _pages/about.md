@@ -27,10 +27,9 @@ latest_posts:
   limit: 3
 ---
 
-I am an Information Systems undergraduate at the Faculty of Information Technologies, L.N. Gumilyov Eurasian National University (GPA 3.92), with a growing focus on Machine Learning, Artificial Intelligence, and Data Analysis. My work sits at the intersection of applied machine learning and Financial Technologies (FinTech).
-
-Currently I work as a Machine Learning Tutor at ITECHRESEARCH, where I develop curriculum and mentor more than 30 students, and I have served as a Junior Research Assistant at the Eurasian National University. In 2025 I completed an academic mobility program at Universiti Malaya under the ENU Students Ambassador initiative.
-
-My research has been published in venues covering econometric modeling, exchange-rate forecasting, and natural language processing for the Kazakh language. I am a recipient of the Presidential Scholarship of the Republic of Kazakhstan and the ENU Endowment Fund scholarship in the Young Researcher category.
-
-I am always open to collaboration on projects and research in machine learning and AI. The best way to reach me is by email.
+- **Information Systems undergraduate** at the Faculty of Information Technologies, L.N. Gumilyov Eurasian National University (GPA 3.92), focused on Machine Learning, Artificial Intelligence, and Data Analysis at the intersection of applied ML and Financial Technologies (FinTech).
+- **Machine Learning Tutor** at ITECHRESEARCH, where I develop curriculum and mentor more than 30 students; previously a Junior Research Assistant at the Eurasian National University.
+- **Academic mobility** at Universiti Malaya (2025) under the ENU Students Ambassador initiative.
+- **Published research** in econometric modeling, exchange-rate forecasting, and natural language processing for the Kazakh language.
+- **Awards:** recipient of the Presidential Scholarship of the Republic of Kazakhstan and the ENU Endowment Fund scholarship in the Young Researcher category.
+- **Open to collaboration** on projects and research in machine learning and AI — the best way to reach me is by email.
