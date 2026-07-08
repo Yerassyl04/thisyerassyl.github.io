@@ -27,17 +27,7 @@ latest_posts:
   limit: 3
 ---
 
-<style>
-  /* Explicit, so a theme rule like `div { display: block }` can't defeat [hidden]. */
-  #about-en[hidden],
-  #about-ru[hidden] {
-    display: none;
-  }
-</style>
-
-<button id="lang-toggle" type="button" data-lang="en" aria-controls="about-en about-ru" style="margin-bottom: 1rem; cursor: pointer; padding: 0.3rem 0.75rem; border-radius: 0.35rem; border: 1px solid currentColor; background: transparent; color: inherit; font: inherit; font-size: 0.85rem;">
-  Русский
-</button>
+<!-- Both language bodies ship in the page; the navbar toggle picks one. -->
 
 <div id="about-en" markdown="1">
 
@@ -58,46 +48,3 @@ latest_posts:
 - **Открыт к сотрудничеству** по проектам и исследованиям в области машинного обучения и ИИ — лучший способ связаться со мной по электронной почте.
 
 </div>
-
-<script>
-  (function () {
-    var btn = document.getElementById("lang-toggle");
-    var en = document.getElementById("about-en");
-    var ru = document.getElementById("about-ru");
-    if (!btn || !en || !ru) return;
-
-    // The subtitle is rendered by the theme layout, outside this page's content.
-    var subtitle = document.querySelector(".post-description, p.desc");
-    var subtitleText = {
-      en: subtitle ? subtitle.textContent.trim() : "",
-      ru: "Студент и исследователь в области информационных систем.",
-    };
-
-    function apply(lang) {
-      var toRu = lang === "ru";
-      en.hidden = toRu;
-      ru.hidden = !toRu;
-      btn.dataset.lang = lang;
-      btn.textContent = toRu ? "English" : "Русский";
-      if (subtitle) subtitle.textContent = subtitleText[lang];
-      document.documentElement.lang = lang;
-      try {
-        localStorage.setItem("about-lang", lang);
-      } catch (e) {
-        /* storage unavailable (private mode) — toggle still works per-visit */
-      }
-    }
-
-    var saved;
-    try {
-      saved = localStorage.getItem("about-lang");
-    } catch (e) {
-      saved = null;
-    }
-    if (saved === "ru") apply("ru");
-
-    btn.addEventListener("click", function () {
-      apply(btn.dataset.lang === "ru" ? "en" : "ru");
-    });
-  })();
-</script>

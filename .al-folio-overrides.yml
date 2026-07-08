@@ -1,0 +1,18 @@
+# Local shadows of plugin-owned files.
+#
+# NOTE: this file was hand-written (no Ruby toolchain available at authoring time).
+# Run `bundle exec al-folio upgrade overrides audit` to let the CLI regenerate it in
+# its canonical schema, then commit the result.
+#
+# `upstream_sha256` is the file as shipped by the gem at `owner_version`. When a
+# future `bundle update` changes that file, the recorded hash stops matching and
+# `overrides audit` reports the drift, so the local edit can be re-applied.
+overrides:
+  - path: _includes/header.liquid
+    owner: al_folio_core
+    owner_version: 1.0.11
+    upstream_sha256: c8663513baded68d9fa5fbe4d6363a976535bbe201efe5138243d0ff03101058
+    local_sha256: 467100caba8a2e13c1a7f26b4e79a0283752c89d7f452e71d16678f2bdbdd53c
+    reason: >-
+      Adds the site language toggle (RU/EN) beside the dark-mode toggle, plus the
+      client-side string swap driven by `_data/ru.yml`.

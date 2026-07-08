@@ -61,7 +61,10 @@ if (/gem 'al_math',\s*:git =>/.test(gemfile)) {
   failures.push("`Gemfile` must not use git-branch pin for `al_math`; use released gem version.");
 }
 
-for (const forbiddenPath of ["_includes", "_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
+// `_includes` and `_layouts` are intentionally omitted: this site shadows
+// `_includes/header.liquid` to add the language toggle. Each shadowed file is
+// recorded in `.al-folio-overrides.yml` so upstream drift stays visible.
+for (const forbiddenPath of ["_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
   if (exists(forbiddenPath)) {
     failures.push(`Starter must not own core component path \`${forbiddenPath}\`; move ownership to the corresponding gem.`);
   }
