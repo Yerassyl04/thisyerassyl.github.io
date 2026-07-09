@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Information Systems student and researcher.
+subtitle: Information Technologies graduate and researcher.
 
 profile:
   align: right
