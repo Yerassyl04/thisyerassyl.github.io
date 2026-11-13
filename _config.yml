@@ -9,11 +9,11 @@ last_name: Iskakov
 contact_note: >
   The fastest way to reach me is by email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Yerassyl Iskakov — Information Technologies graduate and researcher working in Machine Learning, Artificial Intelligence, and Financial Technologies.
+  Yerassyl Iskakov — Applied AI master's student at Astana IT University and researcher working in Machine Learning, Artificial Intelligence, and Data Analytics.
 footer_text: >
   Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Yerassyl Iskakov, machine learning, artificial intelligence, data analysis, fintech, information systems, researcher
+keywords: Yerassyl Iskakov, machine learning, artificial intelligence, applied AI, data analysis, business analytics, fintech, information systems, researcher
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

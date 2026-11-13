@@ -3,7 +3,7 @@ layout: page
 title: Game Development (Godot)
 description: A 2D game built with the Godot engine
 img: assets/img/9.jpg
-importance: 3
+importance: 4
 category: work
 related_publications: false
 ---
@@ -15,7 +15,7 @@ core gameplay loop, character mechanics, and shader effects.
 
 **Highlights**
 
-- Developed core game mechanics and a responsive character controller.
+- Developed core game mechanics, character movement, and custom physics from scratch.
 - Built scenes and interaction systems in the Godot engine.
 - Implemented visual effects with custom GDShaders.
 

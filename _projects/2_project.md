@@ -3,7 +3,7 @@ layout: page
 title: BeineTanu — Face Recognition & Anti-Spoofing
 description: Real-time authentication with liveness detection for virtual systems
 img: assets/img/7.jpg
-importance: 2
+importance: 3
 category: work
 related_publications: false
 ---

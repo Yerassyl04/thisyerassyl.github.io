@@ -1,15 +1,15 @@
 cv:
   name: Yerassyl Iskakov
-  label: Machine Learning & AI Researcher
+  label: Applied AI Master's Student & ML Researcher
   email: iskakovk2016@gmail.com
   phone: "+7 707 137 3705"
   location: Astana, Kazakhstan
   image: ""
   summary: >
-    Information Systems undergraduate and researcher focused on Machine Learning,
-    Artificial Intelligence, Data Analysis, and Financial Technologies. Experienced
-    in applied ML, econometric modeling, and academic research, with multiple
-    peer-reviewed publications.
+    Applied Artificial Intelligence master's student at Astana IT University with a
+    growing interest in business analytics, AI, and data analysis. Experienced in
+    applied ML, econometric modeling, ML teaching, and academic research, with
+    multiple peer-reviewed publications.
 
   social_networks:
     - network: GitHub
@@ -19,16 +19,26 @@ cv:
 
   sections:
     Education:
+      - institution: Astana IT University
+        location: Astana, Kazakhstan
+        url: https://astanait.edu.kz/
+        area: Applied Artificial Intelligence
+        studyType: Master
+        start_date: 2026-09
+        end_date: present
+        highlights:
+          - School of Artificial Intelligence and Data Science.
+
       - institution: L.N. Gumilyov Eurasian National University
         location: Astana, Kazakhstan
         url: https://www.enu.kz/
         area: Information Systems (B057 — Information Technologies)
         studyType: Bachelor
         start_date: 2022-08
-        end_date: 2026-06
+        end_date: 2026-07
         score: "GPA 3.92 / 4.0"
         highlights:
-          - Faculty of Information Technologies, Information and Communication Technologies degree.
+          - DSAI Institute, Information Systems major.
 
       - institution: Universiti Malaya
         location: Kuala Lumpur, Malaysia
@@ -42,23 +52,23 @@ cv:
 
     Experience:
       - company: ITECHRESEARCH
-        position: Machine Learning Tutor
+        position: Machine Learning & AI Instructor
         location: Astana, Kazakhstan
         start_date: 2025-09
         end_date: present
         highlights:
-          - Developed comprehensive curriculum and training materials for the "Machine Learning" course.
-          - Designed, assigned, and graded homework with constructive feedback for 30+ students.
+          - Developed comprehensive curriculum and training materials for the "Machine Learning and AI" course.
+          - Designed, assigned, and graded homework with constructive feedback for 40+ students.
           - Conducted personalized mentoring sessions to support student projects and concept mastery.
 
       - company: L.N. Gumilyov Eurasian National University
         position: Junior Research Assistant
         location: Astana, Kazakhstan
-        start_date: 2025-08
+        start_date: 2025-09
         end_date: 2025-12
         highlights:
-          - Reviewed and synthesized scientific literature, producing accurate and structured literature reviews.
-          - Assisted in preparing research reports and academic publications to academic standards.
+          - "Grant project AP26196337: Applying fuzzy logic and computer science to study imbalances in inter-industry linkages of the national economy of Kazakhstan."
+          - Reviewed scientific literature and systematized research findings.
 
     Awards:
       - title: Presidential Scholarship of the Republic of Kazakhstan
@@ -72,6 +82,17 @@ cv:
         summary: Awarded for academic performance, scientific activity, and public service.
 
     Publications:
+      - title: "Impact of Tailored Animations on Cognitive Drive and Science Literacy in Kazakhstan Primary Education"
+        authors:
+          - Abdrakhmanova, S.
+          - "Iskakov, Y."
+          - Negay, N.
+          - Maigeldiyeva, S.
+          - Toleubay, D.
+        publisher: "Frontiers in Education, 11, 1878612"
+        releaseDate: 2026
+        url: https://doi.org/10.3389/feduc.2026.1878612
+
       - title: "Econometric Analysis of the Sustainability and Development of an Alternative Strategy to Gross Value Added in Kazakhstan's Agricultural Sector"
         authors:
           - Tleubayev, A. et al.
@@ -108,23 +129,32 @@ cv:
 
     Skills:
       - name: Programming Languages
-        keywords: "Python, SQL, Java"
-      - name: Libraries & Frameworks
-        keywords: "Pandas, NumPy, Scikit-learn, TensorFlow, Keras"
-      - name: Tools
-        keywords: "Git, Docker, Jupyter, LaTeX"
+        keywords: "Python, SQL, Java, C/C++, TypeScript, Kotlin"
+      - name: Libraries
+        keywords: "scikit-learn, TensorFlow, Keras, Pandas, NumPy, OpenCV, Matplotlib, Seaborn"
+      - name: Web & Backend
+        keywords: "FastAPI, React, REST APIs, HTML/CSS"
+      - name: Databases
+        keywords: "PostgreSQL, SQLite, MongoDB, Redis"
+      - name: Cloud & MLOps
+        keywords: "AWS, MLflow, CI/CD"
+      - name: Tools & Platforms
+        keywords: "Git, GitHub, Docker, Jupyter, VS Code, Figma, Power BI, 1C, Microsoft Office, LaTeX"
 
     Languages:
       - name: Kazakh
         summary: Native
       - name: Russian
-        summary: Professional
+        summary: Fluent
       - name: English
         summary: IELTS 7.0 (C1)
       - name: Mandarin
         summary: Elementary
 
     Certificates:
+      - name: Yessenov Data Lab Bootcamp — Multi-agent AI and Trends (120 hours)
+        date: 2026-06
+        issuer: Yessenov Foundation & Almaty Management University
       - name: Machine Learning (112 hours, TechOrda scholarship)
         date: 2025-07
         issuer: ITECHRESEARCH IT School
@@ -136,18 +166,35 @@ cv:
         issuer: IBM / Coursera
 
     Projects:
-      - name: Face Recognition and Anti-Spoofing System for Real-Time Authentication
+      - name: SamrukAI — Investment Analytics Platform
         summary: >
-          Implemented an anti-spoofing algorithm in Python to distinguish live subjects
-          from photo or video replay attacks, strengthening authentication security.
-      - name: Information System for Real Estate Management
+          Full-stack app for stock analytics, ML price forecasting, and Black–Litterman
+          portfolio optimization with a Groq LLM assistant. Stack: React, TypeScript,
+          Tailwind, FastAPI, SQLAlchemy, scikit-learn, SciPy, Docker.
+      - name: ENU Research Finder — Semantic Search over Research Papers
         summary: >
-          Architected an information system model and application for managing real estate
-          listings, client data, and transaction history using Java and PostgreSQL.
+          Similarity search, expert ranking, and co-authorship graphs over ENU papers from
+          OpenAlex, using embeddings and LLM-generated explanations. Stack: Python,
+          Transformers (text-1024, gemma4), NetworkX, OpenAlex API.
+      - name: BeineTanu — Face Recognition and Anti-Spoofing Authentication
+        summary: >
+          Real-time face recognition and liveness detection for virtual testing, attendance,
+          and online authentication. Stack: Python, OpenCV, deep learning, computer vision.
       - name: Game Development
         summary: >
-          Developed core game mechanics and character physics in the Godot engine.
+          Built core game mechanics, character movement, and custom physics from scratch.
+          Stack: Godot, GDScript.
+
+    Conferences:
+      - title: "XVIII International Scientific Conference GYLYM JANE BILIM – 2023"
+        date: 2023-05
+        awarder: "Talk: Considering the Risks in Connection with the Pace of AI Development"
+        summary: Certificate of participation.
+      - title: "8th Computational Methods in Systems and Software (CoMeSySo 2024)"
+        date: 2024-10
+        awarder: "Talk: Forecasting for Japanese Yen to Dollar Exchange Rate Based on Fuzzy Logic"
+        summary: Certificate of participation.
 
     Interests:
       - name: Research Interests
-        keywords: "Financial Technologies (FinTech), Machine Learning, Artificial Intelligence"
+        keywords: "Machine Learning, Artificial Intelligence, Business Analytics, Data Analysis, Financial Technologies (FinTech)"
