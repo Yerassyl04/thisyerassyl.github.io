@@ -33,7 +33,7 @@ latest_posts:
 
 - **Master's student in Applied Artificial Intelligence** at the School of AI and Data Science, Astana IT University (since September 2026).
 - **B.Sc. in Information Systems** from L.N. Gumilyov Eurasian National University (2022–2026, GPA 3.92), including an exchange semester at Universiti Malaya.
-- **Machine Learning & AI Instructor** at ITECHRESEARCH, where I designed the course curriculum and mentor 40+ students; previously a Junior Research Assistant at ENU on grant project AP26196337.
+- **Machine Learning & AI Instructor** at ITECHRESEARCH, where I designed the course curriculum and mentor students and interns; previously a Junior Research Assistant at ENU on grant project AP26196337.
 - **Published research** in econometric modeling, exchange-rate forecasting, NLP for the Kazakh language, and AI in education.
 - **Awards:** recipient of the Presidential Scholarship of the Republic of Kazakhstan and the ENU Endowment Fund scholarship in the Young Researcher category.
 - **Open to collaboration** on projects and research in machine learning, AI, and business analytics — the best way to reach me is by email.
